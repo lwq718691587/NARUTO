@@ -46,7 +46,7 @@
 		1A49303A1A6FB11700F1EC55 /* xk3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4930201A6FB11700F1EC55 /* xk3@2x.png */; };
 		1A49303B1A6FB11700F1EC55 /* xysc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A4930211A6FB11700F1EC55 /* xysc@2x.png */; };
 		1A7F2FA31A70D89D004DE317 /* showPersonInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F2FA21A70D89D004DE317 /* showPersonInfoTableViewController.m */; };
-		1A7F2FAE1A70F8F1004DE317 /* CircleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F2FAD1A70F8F1004DE317 /* CircleMenuViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1A7F2FAE1A70F8F1004DE317 /* CircleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F2FAD1A70F8F1004DE317 /* CircleMenuViewController.m */; };
 		1A7F2FB11A70F900004DE317 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F2FB01A70F900004DE317 /* Constants.m */; };
 		1A7F2FB41A70F910004DE317 /* KYCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F2FB31A70F910004DE317 /* KYCircleMenu.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1A7F2FCD1A70FE66004DE317 /* KYICircleMenuButton01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7F2FBD1A70FE66004DE317 /* KYICircleMenuButton01.png */; };
@@ -66,9 +66,13 @@
 		1A7F2FDB1A70FE66004DE317 /* KYICircleMenuCenterButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7F2FCB1A70FE66004DE317 /* KYICircleMenuCenterButtonBackground.png */; };
 		1A7F2FDC1A70FE66004DE317 /* KYICircleMenuCenterButtonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7F2FCC1A70FE66004DE317 /* KYICircleMenuCenterButtonBackground@2x.png */; };
 		1A7F2FDF1A70FEC3004DE317 /* renshuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F2FDE1A70FEC3004DE317 /* renshuViewController.m */; };
-		1A961E8E1A6F554C00100FBE /* TRMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961E891A6F554C00100FBE /* TRMainTabBarViewController.m */; };
-		1A961E8F1A6F554C00100FBE /* TRMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961E8B1A6F554C00100FBE /* TRMyNavigationController.m */; };
-		1A961E901A6F554C00100FBE /* TRMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A961E8D1A6F554C00100FBE /* TRMenuViewController.m */; };
+		FC4C69941A77AD3700DF08A3 /* renshuInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69931A77AD3700DF08A3 /* renshuInfoViewController.m */; };
+		FC4C699B1A77B30D00DF08A3 /* TRMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69961A77B30D00DF08A3 /* TRMainTabBarViewController.m */; };
+		FC4C699C1A77B30D00DF08A3 /* TRMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69981A77B30D00DF08A3 /* TRMenuViewController.m */; };
+		FC4C699D1A77B30D00DF08A3 /* TRMyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C699A1A77B30D00DF08A3 /* TRMyNavigationController.m */; };
+		FC4C69A21A77B84300DF08A3 /* weishouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69A11A77B84300DF08A3 /* weishouViewController.m */; };
+		FC4C69A51A77B87800DF08A3 /* weishouInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69A41A77B87800DF08A3 /* weishouInfoViewController.m */; };
+		FC4C69A81A77BB6300DF08A3 /* weishouCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69A71A77BB6300DF08A3 /* weishouCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,14 +157,22 @@
 		1A7F2FCA1A70FE66004DE317 /* KYICircleMenuCenterButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYICircleMenuCenterButton@2x.png"; sourceTree = "<group>"; };
 		1A7F2FCB1A70FE66004DE317 /* KYICircleMenuCenterButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KYICircleMenuCenterButtonBackground.png; sourceTree = "<group>"; };
 		1A7F2FCC1A70FE66004DE317 /* KYICircleMenuCenterButtonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KYICircleMenuCenterButtonBackground@2x.png"; sourceTree = "<group>"; };
-		1A7F2FDD1A70FEC3004DE317 /* renshuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renshuViewController.h; sourceTree = "<group>"; };
-		1A7F2FDE1A70FEC3004DE317 /* renshuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = renshuViewController.m; sourceTree = "<group>"; };
-		1A961E881A6F554C00100FBE /* TRMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMainTabBarViewController.h; path = ../TRMainTabBarViewController.h; sourceTree = "<group>"; };
-		1A961E891A6F554C00100FBE /* TRMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMainTabBarViewController.m; path = ../TRMainTabBarViewController.m; sourceTree = "<group>"; };
-		1A961E8A1A6F554C00100FBE /* TRMyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMyNavigationController.h; path = ../TRMyNavigationController.h; sourceTree = "<group>"; };
-		1A961E8B1A6F554C00100FBE /* TRMyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMyNavigationController.m; path = ../TRMyNavigationController.m; sourceTree = "<group>"; };
-		1A961E8C1A6F554C00100FBE /* TRMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMenuViewController.h; path = ../TRMenuViewController.h; sourceTree = "<group>"; };
-		1A961E8D1A6F554C00100FBE /* TRMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMenuViewController.m; path = ../TRMenuViewController.m; sourceTree = "<group>"; };
+		1A7F2FDD1A70FEC3004DE317 /* renshuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = renshuViewController.h; path = ../renshuViewController.h; sourceTree = "<group>"; };
+		1A7F2FDE1A70FEC3004DE317 /* renshuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = renshuViewController.m; path = ../renshuViewController.m; sourceTree = "<group>"; };
+		FC4C69921A77AD3700DF08A3 /* renshuInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = renshuInfoViewController.h; path = ../renshuInfoViewController.h; sourceTree = "<group>"; };
+		FC4C69931A77AD3700DF08A3 /* renshuInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = renshuInfoViewController.m; path = ../renshuInfoViewController.m; sourceTree = "<group>"; };
+		FC4C69951A77B30D00DF08A3 /* TRMainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMainTabBarViewController.h; path = "NARUTO -ナルト-/TRMainTabBarViewController.h"; sourceTree = SOURCE_ROOT; };
+		FC4C69961A77B30D00DF08A3 /* TRMainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMainTabBarViewController.m; path = "NARUTO -ナルト-/TRMainTabBarViewController.m"; sourceTree = SOURCE_ROOT; };
+		FC4C69971A77B30D00DF08A3 /* TRMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMenuViewController.h; path = "NARUTO -ナルト-/TRMenuViewController.h"; sourceTree = SOURCE_ROOT; };
+		FC4C69981A77B30D00DF08A3 /* TRMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMenuViewController.m; path = "NARUTO -ナルト-/TRMenuViewController.m"; sourceTree = SOURCE_ROOT; };
+		FC4C69991A77B30D00DF08A3 /* TRMyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRMyNavigationController.h; path = "NARUTO -ナルト-/TRMyNavigationController.h"; sourceTree = SOURCE_ROOT; };
+		FC4C699A1A77B30D00DF08A3 /* TRMyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TRMyNavigationController.m; path = "NARUTO -ナルト-/TRMyNavigationController.m"; sourceTree = SOURCE_ROOT; };
+		FC4C69A01A77B84300DF08A3 /* weishouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishouViewController.h; sourceTree = "<group>"; };
+		FC4C69A11A77B84300DF08A3 /* weishouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishouViewController.m; sourceTree = "<group>"; };
+		FC4C69A31A77B87800DF08A3 /* weishouInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishouInfoViewController.h; sourceTree = "<group>"; };
+		FC4C69A41A77B87800DF08A3 /* weishouInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishouInfoViewController.m; sourceTree = "<group>"; };
+		FC4C69A61A77BB6300DF08A3 /* weishouCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishouCollectionViewCell.h; sourceTree = "<group>"; };
+		FC4C69A71A77BB6300DF08A3 /* weishouCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishouCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,10 +214,11 @@
 		1A35BB711A6F54BC00CFC9CD /* NARUTO -ナルト- */ = {
 			isa = PBXGroup;
 			children = (
-				1A7F2FAB1A70F8D3004DE317 /* circleMenu */,
 				1A35BB7F1A6F54BC00CFC9CD /* Main.storyboard */,
-				1A7F2FA41A70F4FD004DE317 /* renshu */,
+				FC4C699F1A77B82600DF08A3 /* weishou */,
 				1A492FB81A6F9FA600F1EC55 /* bsae */,
+				1A7F2FAB1A70F8D3004DE317 /* circleMenu */,
+				1A7F2FA41A70F4FD004DE317 /* renshu */,
 				1A492FB71A6F9F9900F1EC55 /* PersonageIntroduction */,
 				1A961E781A6F552600100FBE /* ICSDrawerController */,
 				1A35BB761A6F54BC00CFC9CD /* AppDelegate.h */,
@@ -259,12 +272,12 @@
 		1A492FB81A6F9FA600F1EC55 /* bsae */ = {
 			isa = PBXGroup;
 			children = (
-				1A961E881A6F554C00100FBE /* TRMainTabBarViewController.h */,
-				1A961E891A6F554C00100FBE /* TRMainTabBarViewController.m */,
-				1A961E8A1A6F554C00100FBE /* TRMyNavigationController.h */,
-				1A961E8B1A6F554C00100FBE /* TRMyNavigationController.m */,
-				1A961E8C1A6F554C00100FBE /* TRMenuViewController.h */,
-				1A961E8D1A6F554C00100FBE /* TRMenuViewController.m */,
+				FC4C69951A77B30D00DF08A3 /* TRMainTabBarViewController.h */,
+				FC4C69961A77B30D00DF08A3 /* TRMainTabBarViewController.m */,
+				FC4C69971A77B30D00DF08A3 /* TRMenuViewController.h */,
+				FC4C69981A77B30D00DF08A3 /* TRMenuViewController.m */,
+				FC4C69991A77B30D00DF08A3 /* TRMyNavigationController.h */,
+				FC4C699A1A77B30D00DF08A3 /* TRMyNavigationController.m */,
 			);
 			path = bsae;
 			sourceTree = "<group>";
@@ -341,10 +354,9 @@
 		1A7F2FA41A70F4FD004DE317 /* renshu */ = {
 			isa = PBXGroup;
 			children = (
+				FC4C699E1A77B59400DF08A3 /* C */,
 				1A7F2FA61A70F513004DE317 /* V */,
 				1A7F2FA51A70F50A004DE317 /* M */,
-				1A7F2FDD1A70FEC3004DE317 /* renshuViewController.h */,
-				1A7F2FDE1A70FEC3004DE317 /* renshuViewController.m */,
 			);
 			path = renshu;
 			sourceTree = "<group>";
@@ -408,6 +420,30 @@
 				1A297B6D1A6F867D00B29B1C /* ICSDropShadowView.m */,
 			);
 			path = ICSDrawerController;
+			sourceTree = "<group>";
+		};
+		FC4C699E1A77B59400DF08A3 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				1A7F2FDD1A70FEC3004DE317 /* renshuViewController.h */,
+				1A7F2FDE1A70FEC3004DE317 /* renshuViewController.m */,
+				FC4C69921A77AD3700DF08A3 /* renshuInfoViewController.h */,
+				FC4C69931A77AD3700DF08A3 /* renshuInfoViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		FC4C699F1A77B82600DF08A3 /* weishou */ = {
+			isa = PBXGroup;
+			children = (
+				FC4C69A01A77B84300DF08A3 /* weishouViewController.h */,
+				FC4C69A11A77B84300DF08A3 /* weishouViewController.m */,
+				FC4C69A31A77B87800DF08A3 /* weishouInfoViewController.h */,
+				FC4C69A41A77B87800DF08A3 /* weishouInfoViewController.m */,
+				FC4C69A61A77BB6300DF08A3 /* weishouCollectionViewCell.h */,
+				FC4C69A71A77BB6300DF08A3 /* weishouCollectionViewCell.m */,
+			);
+			path = weishou;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -555,19 +591,23 @@
 			files = (
 				1A7F2FDF1A70FEC3004DE317 /* renshuViewController.m in Sources */,
 				1A4930001A6FA3D400F1EC55 /* personViewController.m in Sources */,
+				FC4C69A21A77B84300DF08A3 /* weishouViewController.m in Sources */,
 				1A297B6F1A6F867D00B29B1C /* ICSDropShadowView.m in Sources */,
+				FC4C699C1A77B30D00DF08A3 /* TRMenuViewController.m in Sources */,
 				1A297B6E1A6F867D00B29B1C /* ICSDrawerController.m in Sources */,
+				FC4C699D1A77B30D00DF08A3 /* TRMyNavigationController.m in Sources */,
 				1A7F2FA31A70D89D004DE317 /* showPersonInfoTableViewController.m in Sources */,
+				FC4C69941A77AD3700DF08A3 /* renshuInfoViewController.m in Sources */,
 				1A35BB781A6F54BC00CFC9CD /* AppDelegate.m in Sources */,
 				1A7F2FB11A70F900004DE317 /* Constants.m in Sources */,
 				1A35BB7B1A6F54BC00CFC9CD /* NARUTO______.xcdatamodeld in Sources */,
 				1A7F2FB41A70F910004DE317 /* KYCircleMenu.m in Sources */,
-				1A961E8F1A6F554C00100FBE /* TRMyNavigationController.m in Sources */,
-				1A961E901A6F554C00100FBE /* TRMenuViewController.m in Sources */,
+				FC4C69A81A77BB6300DF08A3 /* weishouCollectionViewCell.m in Sources */,
 				1A4930061A6FA55E00F1EC55 /* PersonCollectionViewCell.m in Sources */,
 				1A35BB751A6F54BC00CFC9CD /* main.m in Sources */,
+				FC4C69A51A77B87800DF08A3 /* weishouInfoViewController.m in Sources */,
 				1A7F2FAE1A70F8F1004DE317 /* CircleMenuViewController.m in Sources */,
-				1A961E8E1A6F554C00100FBE /* TRMainTabBarViewController.m in Sources */,
+				FC4C699B1A77B30D00DF08A3 /* TRMainTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

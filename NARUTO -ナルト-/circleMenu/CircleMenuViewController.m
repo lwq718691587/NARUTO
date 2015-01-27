@@ -8,10 +8,11 @@
 
 #import "CircleMenuViewController.h"
 #import "Constants.h"
+#import "renshuInfoViewController.h"
 @implementation CircleMenuViewController
 
 - (void)dealloc {
-  [super dealloc];
+
 }
 
 - (id)init {
@@ -46,14 +47,14 @@
 //
 - (void)runButtonActions:(id)sender {
   [super runButtonActions:sender];
+    UIStoryboard *board = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
+    renshuInfoViewController * vc = [board instantiateViewControllerWithIdentifier: @"aaaa"];
   
-  // Configure new view & push it with custom |pushViewController:| method
-  UIViewController * viewController = [[UIViewController alloc] init];
-  [viewController.view setBackgroundColor:[UIColor whiteColor]];
-  [viewController setTitle:[NSString stringWithFormat:@"View %d", [sender tag]]];
-  // Use KYCircleMenu's |-pushViewController:| to push vc
-  [self pushViewController:viewController];
-  [viewController release];
+    
+    [self pushViewController:vc];
+    
+  
+
 }
 
 @end

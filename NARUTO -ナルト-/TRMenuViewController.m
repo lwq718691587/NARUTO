@@ -25,7 +25,7 @@
     [super viewDidLoad];
 
     self.menuImageNames = @[@"05侧滑分栏_03.png",@"05侧滑分栏_12.png",@"05侧滑分栏_14.png",@"05侧滑分栏_17.png",@"adfasd",@"333"];
-    self.menuTitles = @[@"任务介绍",@"尾兽介绍",@"忍术介绍",@"忍具介绍",@"更多内容",@"222"];
+    self.menuTitles = @[@"任务介绍",@"忍术介绍",@"尾兽介绍",@"忍具介绍",@"更多内容",@"222"];
     
     //设置背景颜色
     self.tableView.backgroundColor = [UIColor colorWithRed:30.0/255 green:30.0/255 blue:30.0/255 alpha:1];
