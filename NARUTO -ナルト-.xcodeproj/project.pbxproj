@@ -73,6 +73,8 @@
 		FC4C69A21A77B84300DF08A3 /* weishouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69A11A77B84300DF08A3 /* weishouViewController.m */; };
 		FC4C69A51A77B87800DF08A3 /* weishouInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69A41A77B87800DF08A3 /* weishouInfoViewController.m */; };
 		FC4C69A81A77BB6300DF08A3 /* weishouCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4C69A71A77BB6300DF08A3 /* weishouCollectionViewCell.m */; };
+		FC84D7F21A7F9784006A80BA /* renjuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84D7F11A7F9784006A80BA /* renjuTableViewController.m */; };
+		FC84D7F51A7F9DDC006A80BA /* reshuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC84D7F41A7F9DDC006A80BA /* reshuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +175,10 @@
 		FC4C69A41A77B87800DF08A3 /* weishouInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishouInfoViewController.m; sourceTree = "<group>"; };
 		FC4C69A61A77BB6300DF08A3 /* weishouCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weishouCollectionViewCell.h; sourceTree = "<group>"; };
 		FC4C69A71A77BB6300DF08A3 /* weishouCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weishouCollectionViewCell.m; sourceTree = "<group>"; };
+		FC84D7F01A7F9784006A80BA /* renjuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = renjuTableViewController.h; sourceTree = "<group>"; };
+		FC84D7F11A7F9784006A80BA /* renjuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = renjuTableViewController.m; sourceTree = "<group>"; };
+		FC84D7F31A7F9DDC006A80BA /* reshuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reshuTableViewController.h; sourceTree = "<group>"; };
+		FC84D7F41A7F9DDC006A80BA /* reshuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reshuTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,8 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				1A35BB7F1A6F54BC00CFC9CD /* Main.storyboard */,
-				FC4C699F1A77B82600DF08A3 /* weishou */,
 				1A492FB81A6F9FA600F1EC55 /* bsae */,
+				FC0323631A790995002199E8 /* renju */,
+				FC4C699F1A77B82600DF08A3 /* weishou */,
 				1A7F2FAB1A70F8D3004DE317 /* circleMenu */,
 				1A7F2FA41A70F4FD004DE317 /* renshu */,
 				1A492FB71A6F9F9900F1EC55 /* PersonageIntroduction */,
@@ -422,6 +429,15 @@
 			path = ICSDrawerController;
 			sourceTree = "<group>";
 		};
+		FC0323631A790995002199E8 /* renju */ = {
+			isa = PBXGroup;
+			children = (
+				FC84D7F01A7F9784006A80BA /* renjuTableViewController.h */,
+				FC84D7F11A7F9784006A80BA /* renjuTableViewController.m */,
+			);
+			path = renju;
+			sourceTree = "<group>";
+		};
 		FC4C699E1A77B59400DF08A3 /* C */ = {
 			isa = PBXGroup;
 			children = (
@@ -429,6 +445,8 @@
 				1A7F2FDE1A70FEC3004DE317 /* renshuViewController.m */,
 				FC4C69921A77AD3700DF08A3 /* renshuInfoViewController.h */,
 				FC4C69931A77AD3700DF08A3 /* renshuInfoViewController.m */,
+				FC84D7F31A7F9DDC006A80BA /* reshuTableViewController.h */,
+				FC84D7F41A7F9DDC006A80BA /* reshuTableViewController.m */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -590,6 +608,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A7F2FDF1A70FEC3004DE317 /* renshuViewController.m in Sources */,
+				FC84D7F21A7F9784006A80BA /* renjuTableViewController.m in Sources */,
 				1A4930001A6FA3D400F1EC55 /* personViewController.m in Sources */,
 				FC4C69A21A77B84300DF08A3 /* weishouViewController.m in Sources */,
 				1A297B6F1A6F867D00B29B1C /* ICSDropShadowView.m in Sources */,
@@ -602,6 +621,7 @@
 				1A7F2FB11A70F900004DE317 /* Constants.m in Sources */,
 				1A35BB7B1A6F54BC00CFC9CD /* NARUTO______.xcdatamodeld in Sources */,
 				1A7F2FB41A70F910004DE317 /* KYCircleMenu.m in Sources */,
+				FC84D7F51A7F9DDC006A80BA /* reshuTableViewController.m in Sources */,
 				FC4C69A81A77BB6300DF08A3 /* weishouCollectionViewCell.m in Sources */,
 				1A4930061A6FA55E00F1EC55 /* PersonCollectionViewCell.m in Sources */,
 				1A35BB751A6F54BC00CFC9CD /* main.m in Sources */,

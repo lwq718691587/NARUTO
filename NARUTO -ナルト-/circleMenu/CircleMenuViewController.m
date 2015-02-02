@@ -8,7 +8,7 @@
 
 #import "CircleMenuViewController.h"
 #import "Constants.h"
-#import "renshuInfoViewController.h"
+#import "reshuTableViewController.h"
 @implementation CircleMenuViewController
 
 - (void)dealloc {
@@ -48,7 +48,7 @@
 - (void)runButtonActions:(id)sender {
   [super runButtonActions:sender];
     UIStoryboard *board = [UIStoryboard storyboardWithName: @"Main" bundle: nil];
-    renshuInfoViewController * vc = [board instantiateViewControllerWithIdentifier: @"aaaa"];
+    reshuTableViewController * vc = [board instantiateViewControllerWithIdentifier: @"aaaa"];
   
     
     [self pushViewController:vc];
